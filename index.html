@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Davis</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="">Menu</a>
-            <ul>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home-image">Home</a>
+                    <a href="#project-image">Projects</a>
+                    <a href="#">About Me</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="home">
             <div class="container">
-                <img src="./images/mountains_3.png" alt="mountain with fog" style="width: 100%">
-                <div class="top-left">Welcome to my prototype!</div>
-            </div>
-            <p>
-                -My goal is to create a functional and visually appealing web page while learning good web design practices.
-            </p>
-            <p2>
-                By creating this page I can share my current and future projects, learnt he basics of HTML and CSS, as well as share why learning software development and web design is important to me.
-            </p2>
+                <img class="section-image" id="home-image" src="./images/mountains_3.png" alt="mountain with fog">
+                <div class="bottom-left">-Welcome to my prototype</div>
+                <p class="bottom-left2">-My goal is to create a functional and visually appealing web page,</p>
+                <div class="bottom-left3">while learning good web design practices. By creating this page I can share</div>
+                <div class="bottom-left4">my current and future projects, learn the basics of HTML and CSS, as well as share</div>
+                <div class="bottom-left5">why learning software development and web design is important to me.</div>
+        </div>
         </section>
         <section class="projects">
             <div class="container2">
-                <img src="./images/andyone--WW8jBak7bo-unsplash.jpg" alt="desk with camera, glasses, wallet, and tablet" style="width: 100%">
-                <div class="centered">Project 1: Repo Link ---Short Description---
-                    Project 2: Repo Link ---Short Description---
-                    Project 3: Repo Link ---Short Description---
-                    Project 4: Repo Link ---Short Description---
-                </div>
+                <img class="section-image" id="project-image" src="./images/andyone--WW8jBak7bo-unsplash.jpg" alt="desk with camera, glasses, wallet, and tablet">
+                <h1 class="center">Projects</h1>
+                <p1 class="project1">My first project:</p1>
+                <a class="DTG" href="https://github.com/ThidgesB/DayTripGenerator" target="_blank">DayTripGenerator</a>
+                <p2 class="desc1">Short description of the project</p2>
+                <p3 class="project2">My second project:</p3>
+                <p4 class="desc2">Short description of the project</p4>
+                <a1 class="ACL" href="https://github.com/ThidgesB/AlarmClockLab" target="_blank">AlarmClockLab</a1>
             </div>
         </section>
     </main>
