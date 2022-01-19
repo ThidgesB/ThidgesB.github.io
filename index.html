@@ -11,12 +11,12 @@
     <header>
         <nav>
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <button class="dropbtn">Menu</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#home-image">Home</a>
                     <a href="#project-image">Projects</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Contact</a>
+                    <a href="#self-image-link">About Me</a>
+                    <a href="#contact-image">Contact</a>
                 </div>
             </div>
         </nav>
@@ -35,13 +35,59 @@
         <section class="projects">
             <div class="container2">
                 <img class="section-image" id="project-image" src="./images/andyone--WW8jBak7bo-unsplash.jpg" alt="desk with camera, glasses, wallet, and tablet">
-                <h1 class="center">Projects</h1>
-                <p1 class="project1">My first project:</p1>
-                <a class="DTG" href="https://github.com/ThidgesB/DayTripGenerator" target="_blank">DayTripGenerator</a>
-                <p2 class="desc1">Short description of the project</p2>
-                <p3 class="project2">My second project:</p3>
-                <p4 class="desc2">Short description of the project</p4>
-                <a1 class="ACL" href="https://github.com/ThidgesB/AlarmClockLab" target="_blank">AlarmClockLab</a1>
+                <div class="projects-text">
+                    <h1>Projects</h1>
+                    <br>
+                    <pre>
+My first project:
+<a id="DTG" href="https://github.com/ThidgesB/DayTripGenerator" target="_blank">DayTripGenerator</a>  
+Short description of the project
+
+My second project:
+<a id="ACL" href="https://github.com/ThidgesB/AlarmClockLab" target="_blank">AlarmClockLab</a>
+Short description of the project
+                    </pre>
+                </div>
+                
+            </div>
+        </section>
+        <section class="about">
+            <div class="container3">
+                <div class="self-image-holder" id="self-image-link" >
+                    <img class="self-image" src="./images/self_image_placeholder.png" alt="placeholder for profile picture">
+                </div>
+                <div class="about-text">
+                    <br>
+                    <pre>
+                        About Me
+
+-I was born in California. I moved to Kansas in 2014.
+
+-In 2016 I started my career as a private contractor in a family owned business, M&R Homes.
+
+-In 2019 I made partner in the company.
+
+-I started learning full-stack development in December of 2021.
+
+-I love spending time with my kids, watching sports/e-sports, and playing video games.
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container4">
+                <img class="section-image" id="contact-image" src="./images/photo-1543121170-856f92d04651.jpg" alt="rotary phone in black and white">
+                <div class="contact-text">
+                    <h1>Contact Me</h1>
+                    <br>
+                    <pre>
+    e-mail: rob@hob@email.com
+
+    LinkedIn: Don't have one yet
+
+    Phone: 555-555-5555
+                    </pre>
+                </div>
             </div>
         </section>
     </main>

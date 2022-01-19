@@ -101,7 +101,7 @@ nav {
     position: relative;
 }
 
-.center {
+/* .center {
     color: white;
     position: absolute;
     text-align: center;
@@ -110,7 +110,7 @@ nav {
     font-size: x-large;
     font-weight: bolder;
     text-decoration: underline;
-}
+} */
 
 .container2 {
     position: relative;
@@ -118,7 +118,7 @@ nav {
 }
 
 
-.container2 p1 {
+.project1 {
     color: white;
     position: absolute;
     left: 725px;
@@ -126,12 +126,6 @@ nav {
     font-size: larger;
 }
 
-.DTG {
-    color: white;
-    position: absolute;
-    left: 855px;
-    top: 78px;
-}
 
 .desc1 {
     color: white;
@@ -145,7 +139,74 @@ nav {
     position: absolute;
     left: 725px;
     top: 125px;
+    font-size: larger;
 }
 
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.projects-text {
+        color: white;
+        position: absolute;
+        text-align: center;
+        top: 18px;
+        width: 100%;
+        font-size: x-large;
+        font-weight: bolder;
+
+    }
+
+.self-image-holder {
+    background-image: url(./images/photo-1506968430777-bf7784a87f23.jpg);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+}
+
+.self-image {
+    width: 490px;
+    height: 637px;
+    position: relative;
+    left: 1250px;
+    top: 200px;
+}
+
+.about-text {
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 2400px;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+.contact-text {
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 3500px;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 5%;
+
+}
+
+.contact-text h1 {
+    color: white;
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+}
 /* #home-image {
     /* height: 100vh; */
