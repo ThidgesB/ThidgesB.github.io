@@ -1,4 +1,7 @@
-name: Deploy Website
+name: Production Build
+
+env:
+  DATE_STAMP: $(date +%s)
 
 on:
   workflow_dispatch:
