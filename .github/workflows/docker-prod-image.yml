@@ -20,7 +20,7 @@ jobs:
       run: docker build . --file Dockerfile --tag thidges/portfoliopage:latest
 
     - name: Add "date-stamp" tag to Image
-      run: docker image tag thidges/portfoliopage:latest thidges/portfoliopage:latest:${{env.date-stamp}}
+      run: docker -tag thidges/portfoliopage:latest thidges/portfoliopage:latest:${{env.date-stamp}}
 
     - name: Login to Docker hub
       uses: docker/login-action@v1
