@@ -1,7 +1,7 @@
 name: Docker Deployment to AWS
 
 env:
-  APP_NAME: portfoliopage
+  APP_NAME: PortfolioPageCAD
   AWS_REGION: us-east-2
   AWS_PLATFORM: Docker
   PIPELINE_ID: $GITHUB_RUN_ID-$GITHUB_RUN_NUMBER
