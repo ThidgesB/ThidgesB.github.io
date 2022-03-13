@@ -1,0 +1,11 @@
+version: '3.9'
+
+services: 
+  portfolio-page-cad:
+    container_name: portfolio-page-cad
+    image: thidges/portfoliopage:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - '8000:80'
